@@ -3,11 +3,15 @@
 <head>
 <title>Page Title</title>
     <script>
-                        await new Promise(resolve => setTimeout(resolve, 50));
-
-        while (true){
+        document.addEventListener("DOMContentLoaded", () => {
+  await new Promise(resolve => setTimeout(resolve, 50));
+                    while (true){
             console.log(new Date().getTime());
         }
+});
+                        
+
+
     </script>
     <style>
         [class*="te/*"] {
